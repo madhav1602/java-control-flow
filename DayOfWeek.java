@@ -24,6 +24,6 @@ public class DayOfWeek {
         int d0 = (d + x + (31 * m0) / 12) % 7;
 
         // Printing the result
-        System.out.println("Day of the week (0=Sunday, 1=Monday, ..., 6=Saturday): " + d0);
+        System.out.println("Day of the week: " + d0);
     }
 }
